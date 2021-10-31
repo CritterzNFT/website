@@ -1,0 +1,496 @@
+.header-section {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.9)), to(hsla(0, 0%, 100%, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.67)), to(rgba(0, 0, 0, 0.67))), url('../images/critterzspawn.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('../images/critterzspawn.png');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+}
+
+.nav-bar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button {
+  position: static;
+  top: auto;
+  bottom: auto;
+  display: inline-block;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.header-text {
+  width: 70%;
+  margin-top: 60px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 700;
+}
+
+.subheader {
+  width: 60%;
+  margin-top: 45px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.header-button {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 15px 40px;
+  background-color: #57c5a2;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.showcase-section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #f9ff8f;
+}
+
+.subheader-showcase {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #333;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.more-button-2 {
+  width: 40px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.more-button-link {
+  width: 40px;
+}
+
+.more-button-image {
+  width: 40px;
+  padding-bottom: 40px;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.subheading {
+  width: 70%;
+  margin: 20px auto 30px;
+  font-family: Inconsolata, monospace;
+  color: #333;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.showcase-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.showcase-wrapper.teammates {
+  margin-top: 40px;
+}
+
+.showcase-image.team-profile {
+  width: 180px;
+  height: 180px;
+}
+
+.image-wrapper {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image-wrapper.team-profile {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.critterz-intro {
+  margin-top: 20px;
+  font-family: Inconsolata, monospace;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.server-section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #8fe9ff;
+}
+
+.server-showcase {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 60px;
+  background-color: #f7fafc;
+}
+
+.point-image {
+  width: 64px;
+  height: 64px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.point-text {
+  margin-left: 30px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.point-header {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Inconsolata, monospace;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.point-info {
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.roadmap-section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #8fffb7;
+}
+
+.roadmap-showcase {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.roadmap-title {
+  display: block;
+  margin: 20px auto;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.roadmap-point-img {
+  width: 64px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.roadmap-point-info {
+  margin-left: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.phase-wrapper {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7fafc;
+}
+
+.team-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.team-name {
+  margin-top: 20px;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bottom-bar {
+  background-color: #333;
+}
+
+.bottom-bar-info {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  font-family: Inconsolata, monospace;
+  color: #f7fafc;
+  font-size: 18px;
+}
+
+.bottom-bar-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-bar-link {
+  width: 36px;
+  margin-left: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image {
+  float: none;
+}
+
+.bottom-bar-link-wrappers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .subheading {
+    width: 85%;
+  }
+
+  .showcase-image.ape {
+    display: none;
+  }
+
+  .server-showcase {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .roadmap-showcase {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .nav-link {
+    background-color: #555;
+    color: #f7fafc;
+  }
+
+  .header-text {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .subheader {
+    width: 80%;
+    padding-left: 20px;
+  }
+
+  .header-button {
+    margin-left: 20px;
+  }
+
+  .showcase-section {
+    padding-bottom: 60px;
+  }
+
+  .more-button-2 {
+    top: 412px;
+    width: 25px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+  }
+
+  .more-button-link {
+    position: static;
+    top: -283px;
+    width: 25px;
+  }
+
+  .more-button-image {
+    width: 25px;
+  }
+
+  .subheading {
+    width: 80%;
+  }
+
+  .showcase-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .showcase-image {
+    margin: 10px;
+  }
+
+  .showcase-image.ape {
+    display: none;
+  }
+
+  .image-wrapper {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    clear: both;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .server-showcase {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .point-image {
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .point-text {
+    margin-left: 15px;
+  }
+
+  .point-header {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .roadmap-showcase {
+    width: 85%;
+  }
+
+  .roadmap-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .team-name {
+    margin-top: 0px;
+  }
+
+  .bottom-bar-info {
+    margin-left: 20px;
+  }
+
+  .bottom-bar-link {
+    width: 24px;
+  }
+
+  .bottom-bar-link-wrappers {
+    padding-right: 20px;
+  }
+
+  .icon {
+    color: #f7fafc;
+  }
+
+  .bold-text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .menu-button {
+    background-color: #555;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+}
