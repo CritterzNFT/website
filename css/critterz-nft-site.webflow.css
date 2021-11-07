@@ -1,3 +1,8 @@
+a {
+  color: #f7fafc;
+  text-decoration: underline;
+}
+
 .header-section {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.9)), to(hsla(0, 0%, 100%, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.67)), to(rgba(0, 0, 0, 0.67))), url('../images/critterzspawn.png');
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('../images/critterzspawn.png');
@@ -322,6 +327,129 @@
   flex: 1;
 }
 
+.div-block {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.teammateprofilelink {
+  display: block;
+  width: 32px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.disclaimer-button {
+  display: block;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 40px;
+  background-color: #57c5a2;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.white-page-top-bar {
+  background-color: #333;
+}
+
+.subpage-header-text {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.subpage-header-wrapper {
+  margin-bottom: 40px;
+}
+
+.subpage-subheader-text {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.body-text {
+  margin-bottom: 40px;
+}
+
+.header-title {
+  margin-bottom: 15px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #27c090;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.info-text {
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.subheader-text {
+  margin-bottom: 15px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.link-in-white-bkgd {
+  color: #333;
+}
+
+.subheader-link {
+  color: #333;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
 @media screen and (max-width: 991px) {
   .subheading {
     width: 85%;
@@ -339,6 +467,14 @@
   .roadmap-showcase {
     width: 80%;
   }
+
+  .icon {
+    color: #f7fafc;
+  }
+
+  .icon-2 {
+    color: #f7fafc;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -349,6 +485,7 @@
 
   .header-text {
     width: 100%;
+    padding-right: 20px;
     padding-left: 20px;
     font-size: 40px;
     line-height: 50px;
@@ -469,12 +606,21 @@
     margin-left: 20px;
   }
 
+  .bottom-bar-container {
+    display: block;
+  }
+
   .bottom-bar-link {
     width: 24px;
   }
 
   .bottom-bar-link-wrappers {
-    padding-right: 20px;
+    margin-top: 20px;
+    padding-right: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .icon {
@@ -487,10 +633,45 @@
   }
 
   .menu-button {
-    background-color: #555;
+    background-color: transparent;
   }
 
   .menu-button.w--open {
     background-color: transparent;
+  }
+
+  .disclaimer-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .subpage-header-text {
+    font-size: 40px;
+  }
+
+  .subpage-header-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .subpage-subheader-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .header-title {
+    font-size: 23px;
+  }
+
+  .info-text {
+    font-size: 18px;
+  }
+
+  .subheader-text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .icon-2 {
+    color: #f7fafc;
   }
 }
