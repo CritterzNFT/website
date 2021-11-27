@@ -506,6 +506,10 @@ a {
     padding-bottom: 60px;
   }
 
+  .subheader-showcase {
+    width: 80%;
+  }
+
   .more-button-2 {
     top: 412px;
     width: 25px;
@@ -525,7 +529,7 @@ a {
   }
 
   .subheading {
-    width: 80%;
+    width: 85%;
   }
 
   .showcase-wrapper {
