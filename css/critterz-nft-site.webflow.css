@@ -190,7 +190,7 @@ a {
 .point-header {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: Inconsolata, monospace;
+  font-family: Ubuntu, Helvetica, sans-serif;
   font-size: 25px;
   line-height: 30px;
   font-weight: 700;
@@ -287,17 +287,14 @@ a {
 }
 
 .bottom-bar-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .bottom-bar-link {
   width: 36px;
-  margin-left: 20px;
+  margin-right: 20px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -317,10 +314,15 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  margin-top: 20px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -603,6 +605,7 @@ a {
   }
 
   .bottom-bar-info {
+    margin-right: 20px;
     margin-left: 20px;
   }
 
@@ -612,6 +615,8 @@ a {
 
   .bottom-bar-link {
     width: 24px;
+    margin-right: 0px;
+    margin-left: 20px;
   }
 
   .bottom-bar-link-wrappers {
