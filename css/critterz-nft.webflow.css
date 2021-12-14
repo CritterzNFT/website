@@ -1,0 +1,1226 @@
+a {
+  color: #f7fafc;
+  text-decoration: underline;
+}
+
+img {
+  display: inline-block;
+}
+
+.header-section {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.9)), to(hsla(0, 0%, 100%, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.67)), to(rgba(0, 0, 0, 0.67))), url('../images/critterzspawn.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(180deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url('../images/critterzspawn.png');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+}
+
+.nav-bar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.nav-link.w--current {
+  color: #09f;
+}
+
+.nav-link.wallet-address {
+  color: #ffd88f;
+}
+
+.header-text {
+  width: 70%;
+  margin-top: 60px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 700;
+}
+
+.subheader {
+  width: 60%;
+  margin-top: 45px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.header-button {
+  margin: 60px auto;
+  padding: 15px 40px;
+  background-color: #57c5a2;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.showcase-section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #ffd88f;
+}
+
+.subheader-showcase {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #333;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subheading {
+  width: 70%;
+  margin: 20px auto 30px;
+  font-family: Inconsolata, monospace;
+  color: #333;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.showcase-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.showcase-wrapper.teammates {
+  margin-top: 40px;
+}
+
+.showcase-image.team-profile {
+  width: 180px;
+  height: 180px;
+}
+
+.image-wrapper {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.image-wrapper.team-profile {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.server-section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #8fe9ff;
+}
+
+.server-showcase {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 60px;
+  background-color: #f7fafc;
+}
+
+.point-image {
+  width: 64px;
+  height: 64px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.point-text {
+  margin-left: 30px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.point-header {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.point-info {
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.roadmap-section {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  background-color: #8fffb7;
+}
+
+.roadmap-showcase {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.roadmap-title {
+  display: block;
+  margin: 20px auto;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.roadmap-point-img {
+  width: 64px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.roadmap-point-info {
+  margin-left: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.phase-wrapper {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f7fafc;
+}
+
+.team-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.team-name {
+  margin-top: 20px;
+  font-family: Inconsolata, monospace;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bottom-bar {
+  background-color: #161616;
+}
+
+.bottom-bar-info {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  color: #f7fafc;
+  font-size: 28px;
+}
+
+.bottom-bar-container {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bottom-bar-link {
+  width: 36px;
+  margin-right: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image {
+  float: none;
+}
+
+.bottom-bar-link-wrappers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.bold-text {
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  font-size: 32px;
+}
+
+.teammateprofilelink {
+  display: block;
+  width: 32px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.white-page-top-bar {
+  background-color: #0d4b25;
+}
+
+.subpage-header-text {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.subpage-header-text.whitepaper {
+  margin-left: 20px;
+}
+
+.subpage-header-wrapper {
+  margin-bottom: 40px;
+}
+
+.subpage-subheader-text {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.body-text {
+  margin-bottom: 40px;
+}
+
+.header-title {
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #0d4b25;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.info-text {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.info-text.equations {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.subheader-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.link-in-white-bkgd {
+  color: #333;
+}
+
+.subheader-link {
+  color: #333;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.intro-section {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background-color: #ffd88f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 250, 252, 0.6)), to(rgba(247, 250, 252, 0.6))), -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(94%, #f7fafc)), url('../images/critterzbkgdlight.png');
+  background-image: linear-gradient(180deg, rgba(247, 250, 252, 0.6), rgba(247, 250, 252, 0.6)), linear-gradient(180deg, transparent, #f7fafc 94%), url('../images/critterzbkgdlight.png');
+  background-position: 0px 0px, 0px 0px, 0px 0px;
+  background-size: auto, auto, contain;
+}
+
+.mintwrapper {
+  display: block;
+  margin-top: 0px;
+}
+
+.mintscreenwrapper {
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: none;
+  border-width: 10px;
+  border-color: #57c5a2;
+  background-color: transparent;
+}
+
+.minting-header {
+  margin-bottom: 10px;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #0d4b25;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 0 #161616;
+}
+
+.minting-header.sub {
+  color: #008f09;
+  font-size: 24px;
+  line-height: 32px;
+  text-shadow: 2px 2px 0 #161616;
+}
+
+.imgwrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.mint-showcase-image {
+  width: 36px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.mint-showcase-image.whitepaper {
+  width: 64px;
+}
+
+.mint-connect-wallet {
+  display: block;
+  width: 250px;
+  margin: 20px auto;
+  padding: 15px 40px;
+  background-color: #0d4b25;
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.minting-subheader {
+  margin-top: 10px;
+  font-family: Inconsolata, monospace;
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.minting-subheader.in-mint-screen {
+  width: 63%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  color: #333;
+  font-size: 32px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.minting-subheader.secondary {
+  font-family: Inconsolata, monospace;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.mint-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+  background-color: #f7fafc;
+}
+
+.mint-section.staking {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.content-wrapper {
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  padding: 20px;
+  border: 10px solid #0d364b;
+  background-color: #ccf3ff;
+  box-shadow: 3px 3px 0 0 #161616;
+}
+
+.content-wrapper.minecraft-critterz {
+  border-color: #4b3e0d;
+  background-color: #fffbcc;
+}
+
+.content-wrapper.rental-critterz {
+  border-color: #4b0d3c;
+  background-color: #ffccf5;
+}
+
+.content-wrapper.unstaked-critterz {
+  border-color: #0d4b25;
+  background-color: #cfc;
+}
+
+.content-wrapper.mint-tab {
+  border-color: #0d4b25;
+  background-color: #cfc;
+}
+
+.content-wrapper.learn-more {
+  border-color: #0d4b25;
+  background-color: #fffbcc;
+}
+
+.mint-header {
+  border: 1px none #000;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #008f09;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 0 #161616;
+}
+
+.subheader-in-mint {
+  width: 71%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  font-size: 32px;
+  line-height: 24px;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.mint-button {
+  width: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #008f09;
+  font-family: 'Minecraftia normal', sans-serif;
+  text-align: center;
+}
+
+.mint-button.learn-more {
+  background-color: #0d4b25;
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  font-size: 28px;
+}
+
+.mint-buttons-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.top-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.top-bar.stake-screen {
+  display: block;
+}
+
+.staking-header {
+  margin: 40px 20px 20px;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #0d4b25;
+  font-size: 25px;
+  line-height: 30px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.staking-content-heder {
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.staking-content {
+  margin-bottom: 10px;
+  font-family: 'Minecraftchmc dblx', sans-serif;
+  font-size: 28px;
+}
+
+.staking-content.more-info {
+  margin-bottom: 24px;
+}
+
+.inline-link {
+  color: #09f;
+}
+
+.staking-section {
+  background-color: transparent;
+}
+
+.critterzshowcasewrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.critterzshowcase {
+  width: 84px;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.critterzshowcase.selected {
+  background-color: #008f09;
+}
+
+.critterzshowcase.selected.rented-out {
+  background-color: #8f0077;
+}
+
+.critterzshowcase.selected.staked-critterz {
+  background-color: #b1a202;
+}
+
+.staking-subheader {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #10692f;
+  text-transform: uppercase;
+}
+
+.staking-subheader.whitepaper {
+  margin-top: 40px;
+}
+
+.staking-button {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px 32px;
+  background-color: #008f09;
+  font-family: 'Minecraftia normal', sans-serif;
+}
+
+.staking-button.minecraft-critterz {
+  background-color: #b1a202;
+}
+
+.staking-button.rental-critterz {
+  background-color: #8f0077;
+}
+
+.staking-button.rental-critterz.invalid-action {
+  background-color: #6e6e6e;
+}
+
+.staking-button.qnavbutton {
+  background-color: #0d4b25;
+}
+
+.quick-nav {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.quick-nav.whitepaper {
+  margin-top: 40px;
+}
+
+.rent-out-critterz-info {
+  margin-top: 10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  font-family: 'Minecraftia normal', sans-serif;
+  color: #f7fafc;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.plot-showcase {
+  width: 128px;
+  height: 128px;
+  padding: 10px;
+}
+
+.plot-showcase.selected {
+  background-color: #008f09;
+}
+
+.whitepaper-section-container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.whitepaper-header-section {
+  margin-bottom: 20px;
+}
+
+.whitepaper-image-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.whitepaper-image-div {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.whitepaper-img-skins {
+  max-height: 250px;
+  border: 1px solid #000;
+}
+
+.whitepaper-img-skins.spawn {
+  max-height: 320px;
+}
+
+.whole-wp-img-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img-caption {
+  width: 75%;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Inconsolata, monospace;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.whitepaper-link {
+  color: #0d4b25;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.list-item {
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.whitepaper-section {
+  margin-top: 40px;
+}
+
+.whitepaper-section.last-section {
+  margin-bottom: 60px;
+}
+
+.whitepaper-section.top-section {
+  margin-top: 20px;
+}
+
+.whitepaper-img-graphs {
+  max-height: 400px;
+}
+
+.loading-screen-container {
+  padding-top: 200px;
+  padding-bottom: 220px;
+}
+
+@media screen and (max-width: 991px) {
+  .subheading {
+    width: 85%;
+  }
+
+  .showcase-image.ape {
+    display: none;
+  }
+
+  .server-showcase {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .roadmap-showcase {
+    width: 80%;
+  }
+
+  .icon {
+    color: #f7fafc;
+  }
+
+  .icon-2 {
+    color: #f7fafc;
+  }
+
+  .top-bar {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .tablet-menu {
+    color: #f7fafc;
+  }
+
+  .nav-menu-open {
+    background-color: #333;
+  }
+
+  .menu-button-dark {
+    background-color: #0d4b25;
+  }
+
+  .menu-button-dark.w--open {
+    background-color: #0d4b25;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bottom-bar-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .minting-subheader.in-mint-screen {
+    width: 85%;
+  }
+
+  .subheader-in-mint {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .nav-link {
+    background-color: #555;
+    color: #f7fafc;
+  }
+
+  .header-text {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .subheader {
+    width: 80%;
+    padding-left: 20px;
+  }
+
+  .header-button {
+    margin-left: 20px;
+  }
+
+  .showcase-section {
+    padding-bottom: 60px;
+  }
+
+  .subheader-showcase {
+    width: 80%;
+  }
+
+  .subheading {
+    width: 85%;
+  }
+
+  .showcase-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .showcase-image {
+    margin: 10px;
+  }
+
+  .showcase-image.ape {
+    display: none;
+  }
+
+  .image-wrapper {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    clear: both;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .server-showcase {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .point-image {
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .point-text {
+    margin-left: 15px;
+  }
+
+  .point-header {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .roadmap-showcase {
+    width: 85%;
+  }
+
+  .roadmap-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .team-name {
+    margin-top: 0px;
+  }
+
+  .bottom-bar-container {
+    display: block;
+  }
+
+  .bottom-bar-link {
+    width: 24px;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+
+  .bottom-bar-link-wrappers {
+    margin-top: 20px;
+    padding-right: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .icon {
+    color: #f7fafc;
+  }
+
+  .bold-text {
+    font-size: 32px;
+    line-height: 18px;
+  }
+
+  .menu-button {
+    background-color: transparent;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+
+  .disclaimer-section {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .subpage-header-text {
+    font-size: 40px;
+  }
+
+  .subpage-header-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .subpage-subheader-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .header-title {
+    font-size: 23px;
+  }
+
+  .info-text {
+    font-size: 18px;
+  }
+
+  .subheader-text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .icon-2 {
+    color: #f7fafc;
+  }
+
+  .intro-section {
+    background-size: auto 100%;
+  }
+
+  .minting-header {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .minting-header.sub {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mint-showcase-image.whitepaper {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .minting-subheader.in-mint-screen {
+    width: 90%;
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .mint-header {
+    font-size: 20px;
+  }
+
+  .subheader-in-mint {
+    width: 100%;
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .top-bar {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .staking-header {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .staking-content-heder {
+    font-size: 12px;
+  }
+
+  .staking-content {
+    font-size: 24px;
+    line-height: 18px;
+  }
+
+  .staking-content.more-info {
+    font-size: 24px;
+  }
+
+  .staking-subheader {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .tablet-menu {
+    color: #f7fafc;
+  }
+
+  .nav-menu-open {
+    background-color: #333;
+  }
+
+  .whitepaper-image-div {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .whitepaper-img-skins {
+    min-height: 0px;
+  }
+
+  .img-caption {
+    width: 95%;
+  }
+
+  .whitepaper-section {
+    margin-top: 20px;
+  }
+}
+
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('../fonts/Minecraftia-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Minecraftia normal';
+  src: url('../fonts/Minecraftia.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Minecraftchmc dblx';
+  src: url('../fonts/Minecraftchmc-dBlX.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
